@@ -1,0 +1,22 @@
+{
+    "name": "scandi/module-change-color-by-console",
+    "description": "A module that will change the button colors by console",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Jorge Henrique",
+            "email": "jorgedshenrique@gmail.com"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Scandi\\ChangeColorByConsole\\": ""
+        }
+    }
+}
